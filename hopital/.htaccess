@@ -1,0 +1,5 @@
+RewriteEngine on
+RewriteRule 1$ public/ [L]
+RewriteRule 1(.*)$ public/$1 [L]
+
+//sudo a2enmod rewrite
